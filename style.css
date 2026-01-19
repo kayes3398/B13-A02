@@ -1,15 +1,14 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 /* nav design */
-.navbar{
+.navbar {
   justify-content: space-between;
   display: flex;
-  border:2px solid green;
+  border: 2px solid green;
   /* padding:16px 200px; */
   max-width: 1200px;
   height: 69px;
@@ -18,173 +17,179 @@
   background-color: rgba(65, 37, 103, 1);
 }
 
-#brand-logo{
+#brand-logo {
   display: flex;
   align-items: center;
-  padding-left: 150px; 
-  color:white;
+  padding-left: 150px;
+  color: white;
 }
-.nav-links{
+.nav-links {
   display: flex;
   justify-content: space-between;
-  gap:32px;
+  gap: 32px;
   align-items: center;
-
 }
-.link-item{
+.link-item {
   list-style-type: none;
   text-decoration: none;
-  
-  
 }
-.link-info{
+.link-info {
   text-decoration: none;
-  color:white;
-  
+  color: white;
 }
 
-
-.btn-primary{
+.btn-primary {
   padding: 12px 16px;
   border-radius: 25px;
   font-weight: 135px;
   word-spacing: 10px;
   display: flex;
-  border:none;
+  border: none;
   align-items: center;
   height: 30px;
-  color:white;
-   background-image: linear-gradient(40deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+  color: white;
+  background-image: linear-gradient(
+    40deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
 }
-.han-icon{
+.han-icon {
   display: flex;
   align-items: center;
   padding-right: 20px;
-  display:none;
+  display: none;
 }
-.fa-solid{
-  color:white;
+.fa-solid {
+  color: white;
   height: 24px;
-  width:24px;
-  padding:5.25px 3px;
-  
-  
+  width: 24px;
+  padding: 5.25px 3px;
 }
-span{
+span {
   padding-right: 150px;
   display: flex;
   align-items: center;
 }
 /* banner design */
 
- .banner{
+.banner {
   height: 600px;
-  max-width:1200px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url(./assets/hero-bg.png);
- }
-.banner-container{
-  margin:40%;
-  text-align: center;
-  color:white;
-  
-
 }
-.banner-brand{
+.banner-container {
+  margin: 40%;
+  text-align: center;
+  color: white;
+}
+.banner-brand {
   font-weight: 800;
   font-size: 60px;
-
 }
-.button-group{
+.button-group {
   margin-top: 25px;
 }
-.banner-features{
+.banner-features {
   white-space: nowrap;
 }
 
-
 /* about section design */
 
-.about{
-  border:2px solid green;
+.about {
+  border: 2px solid green;
   background-color: rgba(26, 11, 46, 1);
   max-width: 1200px;
-  height:450px;
+  height: 450px;
   margin: 0 auto;
-  
 }
-.about-content{
+.about-content {
   text-align: center;
-  color:white;
+  color: white;
   margin-top: 50px;
   margin-bottom: 120px;
   margin-left: 200px;
   margin-right: 200px;
-
 }
-.about-hero{
+.about-hero {
   font-size: 48px;
   font-weight: 700;
-  color:rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1);
 }
-.card-text{
+.card-text {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   margin-top: 80px;
 }
-.card-head{
-  color:rgba(0, 255, 136, 1);
-  font-weight:240px;
-  height:58px;
+.card-head {
+  color: rgba(0, 255, 136, 1);
+  font-weight: 240px;
+  height: 58px;
   font-weight: 900;
   font-size: 48px;
-
 }
-.card-des{
-  font-weight:240px;
-  height:20px;
+.card-des {
+  font-weight: 240px;
+  height: 20px;
   opacity: 80%;
   font-weight: 400;
   font-size: 20px;
 }
 
+/* why design */
+.why-parent {
+  background-color: rgba(35, 14, 61, 1);
+  max-width: 1200px;
+  height: 1050px;
+  margin: 0 auto;
+}
+.why-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer design */
+.footer-banner {
+  background-image: url(./assets/footer-bg.png);
+  max-width: 1200px;
+  height: 390px;
+  margin: 0 auto;
+  display: flex;
+}
+.footer-heading {
+  font-weight: 410px;
+  height: 60px;
+  color: white;
+  font-size: 120px;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* responsive design */
-@media screen and (max-width:576px){
-  .nav-links,span{
-    display:none;
+@media screen and (max-width: 576px) {
+  .nav-links,
+  span {
+    display: none;
   }
-  .han-icon{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding-right: 20px;
-  display:block;
-
-}
-#brand-logo{
-  display: flex;
-  align-items: center;
-  padding-left: 20px; 
-  color:white;
-}
-  
+  .han-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    display: block;
+  }
+  #brand-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+  }
 }
