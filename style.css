@@ -75,8 +75,54 @@ span{
   display: flex;
   align-items: center;
 }
+/* banner design */
 
+/* .banner-content{
+  height: 600px;
+  width:1200px;
+  margin: 0 auto;
+  color:white;
+  display: flex;
+  align-items: center;
 
+  background-image: url(./assets/hero-bg.png);
+}
+.banner-logo{
+  margin-top:101px;
+  margin-bottom: 309px;
+  margin-left: 625px;
+  margin-right: 625px;
+  
+}
+ */
+
+ .banner{
+  height: 600px;
+  width:1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/hero-bg.png);
+ }
+.banner-container{
+  margin:40%;
+  text-align: center;
+  color:white;
+  
+
+}
+.banner-brand{
+  font-weight: 800;
+  font-size: 60px;
+
+}
+.button-group{
+  margin-top: 25px;
+}
+.banner-features{
+  white-space: nowrap;
+}
 
 
 
