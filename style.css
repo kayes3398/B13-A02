@@ -77,28 +77,9 @@ span{
 }
 /* banner design */
 
-/* .banner-content{
-  height: 600px;
-  width:1200px;
-  margin: 0 auto;
-  color:white;
-  display: flex;
-  align-items: center;
-
-  background-image: url(./assets/hero-bg.png);
-}
-.banner-logo{
-  margin-top:101px;
-  margin-bottom: 309px;
-  margin-left: 625px;
-  margin-right: 625px;
-  
-}
- */
-
  .banner{
   height: 600px;
-  width:1200px;
+  max-width:1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -125,6 +106,50 @@ span{
 }
 
 
+/* about section design */
+
+.about{
+  border:2px solid green;
+  background-color: rgba(26, 11, 46, 1);
+  max-width: 1200px;
+  height:450px;
+  margin: 0 auto;
+  
+}
+.about-content{
+  text-align: center;
+  color:white;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+.about-hero{
+  font-size: 48px;
+  font-weight: 700;
+  color:rgba(255, 255, 255, 1)
+}
+.card-text{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 80px;
+}
+.card-head{
+  color:rgba(0, 255, 136, 1);
+  font-weight:240px;
+  height:58px;
+  font-weight: 900;
+  font-size: 48px;
+
+}
+.card-des{
+  font-weight:240px;
+  height:20px;
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 20px;
+}
 
 
 
