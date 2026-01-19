@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* nav design */
+.navbar{
+  justify-content: space-between;
+  display: flex;
+  border:2px solid green;
+  /* padding:16px 200px; */
+  max-width: 1200px;
+  height: 69px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: rgba(65, 37, 103, 1);
+}
+
+#brand-logo{
+  display: flex;
+  align-items: center;
+  padding-left: 150px; 
+  color:white;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  gap:32px;
+  align-items: center;
+
+}
+.link-item{
+  list-style-type: none;
+  text-decoration: none;
+  
+  
+}
+.link-info{
+  text-decoration: none;
+  color:white;
+  
+}
+
+
+.btn-primary{
+  padding: 12px 16px;
+  border-radius: 25px;
+  font-weight: 135px;
+  word-spacing: 10px;
+  display: flex;
+  border:none;
+  align-items: center;
+  height: 30px;
+  color:white;
+   background-image: linear-gradient(40deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+}
+.han-icon{
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  display:none;
+}
+.fa-solid{
+  color:white;
+  height: 24px;
+  width:24px;
+  padding:5.25px 3px;
+  
+  
+}
+span{
+  padding-right: 150px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design */
+@media screen and (max-width:576px){
+  .nav-links,span{
+    display:none;
+  }
+  .han-icon{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-right: 20px;
+  display:block;
+
+}
+#brand-logo{
+  display: flex;
+  align-items: center;
+  padding-left: 20px; 
+  color:white;
+}
+  
+}
