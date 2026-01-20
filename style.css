@@ -367,6 +367,66 @@ span {
   /* padding-top: 5px; */
 
 }
+/* host section */
+.host-section{
+  height:500px;
+  background-color:rgba(26, 11, 46, 1);
+  max-width:1200px;
+  margin: 0 auto;
+
+
+}
+.host-heading{
+  width:1200px;
+  height:58px;
+  font-size: 48px;
+  font-weight: 700;
+  color:rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.host-experience{
+  color:rgba(255, 255, 255, 1);
+  width:750px;
+  height:72px;
+  opacity: 60%;
+  font-weight: 300;
+  font-size: 16px;
+
+}
+.host-name{
+  color:rgba(255, 255, 255, 1);
+  width:896px;
+  height:39px;
+  font-weight: 700;
+  font-size: 32px;
+
+}
+.content{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: rgba(53, 17, 101, 0.4);
+  height: 280px;
+  margin:40px;
+  border-radius: 25px;
+  padding: 40px;
+  padding:20px;
+
+}
+.host-bio{
+  /* margin-left: 20px; */
+  
+}
+.host-social{
+  display:flex;
+  gap:15px;
+  border-radius:10px ;
+  color:rgba(83, 60, 114, 1);
+}
+.host-icon{
+  border-color: burlywood;
+}
 
 
 
