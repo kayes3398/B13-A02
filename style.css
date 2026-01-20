@@ -140,17 +140,178 @@ span {
   font-size: 20px;
 }
 
-/* why design */
+/* grid card design */
 .why-parent {
   background-color: rgba(35, 14, 61, 1);
   max-width: 1200px;
-  height: 1050px;
+  height: 1000px;
   margin: 0 auto;
+}
+.why-parent-heading{
+  color:rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 48px;
+  height: 58px;
+  margin-top:90px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  text-align: center; */
 }
 .why-content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  gap:30px;
+  grid-template-areas:
+  "Premium Mobile Mobile"
+  "Premium Global Global"
+  "Exclusive Exclusive Rich";
+
 }
+.Premium{
+  grid-area:Premium;
+  width:330px;
+  height: 365px;
+  padding:20px;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+
+}
+.Premium-heading{
+  color:rgba(255, 255, 255, 1);
+  width:300px;
+  height:29px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top:16px;
+}
+.Premium-declaration{
+  margin-top:16px;
+  height: 144px;
+  width:300px;
+  opacity:60%;
+  color:rgba(255, 255, 255, 1);
+}
+.Mobile{
+  grid-area: Mobile;
+  width:592px;
+  height: 169px;
+  border-radius: 30px;
+  padding:20px;
+  background-color: rgba(53, 17, 101, 0.4);
+
+
+}
+.Mobile-heading{
+  color:rgba(255, 255, 255, 1);
+  width:300px;
+  height:29px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top:5px;
+
+
+}
+.Mobile-declaration{
+ color:rgba(255, 255, 255, 1);
+ margin-top:5px;
+  height: 144px;
+  width:300px;
+  opacity:60%;
+  color:rgba(255, 255, 255, 1);
+}
+.Global{
+  grid-area: Global;
+  width:592px;
+  height: 169px;
+  border-radius: 30px;
+  padding:20px;
+  background-color: rgba(53, 17, 101, 0.4);
+
+}
+.Global-heading{
+  color:rgba(255, 255, 255, 1);
+  width:300px;
+  height:29px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top:5px;
+  
+}
+.Global-declaration{
+  color:rgba(255, 255, 255, 1);
+  margin-top:5px;
+  height: 144px;
+  width:300px;
+  opacity:60%;
+  color:rgba(255, 255, 255, 1);
+  
+}
+
+.Exclusive{
+  grid-area:Exclusive;
+  width:592px;
+  height: 230px;
+  border-radius: 30px;
+  padding:20px;
+  background-color: rgba(53, 17, 101, 0.4);
+
+}
+.Exclusive-heading{
+ color: rgba(255, 255, 255, 1);
+ width:300px;
+  height:29px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top:5px;
+
+}
+.Exclusive-declaration{
+  margin-top:5px;
+  height: 72px;
+  width:300px;
+  opacity:60%;
+  color:rgba(255, 255, 255, 1);
+
+}
+.Rich{
+  grid-area:Rich;
+  width:285px;
+  height: 230px;
+  border-radius: 30px;
+  padding:20px;
+  background-color: rgba(53, 17, 101, 0.4);
+
+}
+.Rich-heading{
+  color:rgba(255, 255, 255, 1);
+  width:300px;
+  height:29px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top:5px;
+
+}
+.Rich-declaration{
+  color:rgba(255, 255, 255, 1);
+  opacity:60%;
+  margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer design */
 section{
