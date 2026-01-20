@@ -302,6 +302,95 @@ span {
 
 }
 
+/*  features design */
+.features-content{
+  height:479px;
+  background-color:rgba(26, 11, 46, 1);
+  max-width:1200px;
+  margin: 0 auto;
+
+}
+.features-heading{
+  width:1200px;
+  height:58px;
+  font-size: 48px;
+  font-weight: 700;
+  color:rgba(255, 255, 255, 1);
+  text-align: center;
+  
+}
+
+
+.video-content{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  margin-top: 30px;
+  
+  /* text-align: center; */
+
+}
+.feature-card{
+  width:210px;
+  height:305px;
+  border-radius: 18px;
+  background-color: rgba(37, 13, 68, 1);
+}
+.card-declaration{
+  width:200px;
+  height:30px;
+  opacity:70%;
+  font-weight: 200px;
+  font-size: 12px;
+  color:rgba(255, 255, 255, 1);
+  padding:5px;
+
+}
+.card-heading{
+  color:rgba(255, 255, 255, 1);
+  width:200px;
+  height: 58px;
+  font-weight: 700;
+  padding:5px;
+  opacity:70%;
+}
+
+.timer-icon{
+  width:20px;
+  height:20px;
+  display:flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  gap:5px;
+  /* padding-top: 5px; */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* .host-parent{
+  background-color: rgba(26, 11, 46, 1);
+  max-width: 1200px;
+  height: 957px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.host-content{
+  display:flex;
+  flex-direction: row;
+  
+} */
+
 
 
 
