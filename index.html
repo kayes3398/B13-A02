@@ -6,15 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <!-- icon link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+
 </head>
 
-<body>
+<body class="font-type">
   <header>
     <nav class="navbar">
-      <h3 id="brand-logo">TechWave</h3>
+      <h3 id="brand-logo">Tech<span class="wave-gradient">Wave</span></h3>
       <ul class="nav-links">
         <li class="link-item"><a href="" class="link-info">About</a></li>
         <li class="link-item"><a href="" class="link-info">Episodes</a></li>
@@ -23,21 +31,34 @@
       <span><button class="btn-primary">Subscribe</button></span>
       <div class="han-icon"><i class="fa-solid fa-bars"></i></div>
     </nav>
-    <!-- banner section -->
+<!-- new in port banner section -->
 
-    <section class="banner">
-      <div class="banner-container">
-        <div>
-          <img class="banner-logo" src="./assets/microphone.png" alt="">
-          <h2 class="banner-brand">TechWave</h2>
-          <p class="banner-features">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-        </div>
-        <div class="button-group">
-          <button>Listen on Spotify</button>
-          <button>Subscribe</button>
-        </div>
-      </div>
-    </section>
+<section class="hero-banner">
+
+  <div class="logo-banner">
+    <div class="logo"><img src="./assets/microphone.png" alt="">
+      <span class="new-badge">new</span>
+    </div>
+  </div>
+  <h2 class="hero-heading">TechWave</h2>
+  <p class="hero-para">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+  <div class="button">
+    <button class="btn-spotify"><i class="fa-brands fa-spotify"></i>Listen on Spotify</button>
+    <button class="btn-sub"><i class="fa-regular fa-envelope"></i>subscribe</button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<!--  about section  -->
     <section class="about">
 
       <div class="about-content">
@@ -170,8 +191,9 @@
 
     <!-- feature host -->
      <section class="host-section">
+      <h2 class="host-heading">Meet the Host</h2>
       <div class="host-container">
-        <h2 class="host-heading">Meet the Host</h2>
+        
         <div class="content">
           <div class="host-img"><img src="./assets/host.png" alt=""></div>
           <div class="host-bio">
@@ -197,67 +219,33 @@
 
     <!-- host section -->
 
-    <!-- <section class="host-parent">
-       
-       <div class="class=host-content">
-        
-        <h2 class="host-heading">Meet the Host</h2>
-        <div class="host-card">
-          <div class="host-img"><img src="./assets/host.png" alt="">
-          </div>
-          <div class="host-context">
-            <h2>Alex Kumar</h2>
-            <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years,
-            working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and
-            practical advice for anyone looking to grow in tech.</p>
-            <img src="./assets/instagram.png" alt="">
-            <img src="./assets/x.png" alt="">
-            <img src="./assets/instagram.png" alt="">
-            <img src="./assets/youtube.png" alt="">
-            
-          </div>
-
-        </div>
-
-
-
-
-
-
-
-
-
-      </>
-
-   
-    </section> -->
-
+    
   </header>
   <!-- footer -->
   <section class="footer">
     <div class="footer-container">
 
-      <h2 class="footer-heading">TechWave</h2>
+      <h2 class="footer-heading">Tech<span class="wave-gradient">Wave</span></h2>
       <div class="social-container">
         <div class="social-icon">
           <img src="./assets/spotify.png" alt="">
           <p class="icon-dec">Spotify</p>
-          <!-- <a href=""></a> -->
+          
         </div>
         <div class="social-icon">
           <img src="./assets/apple-podcast.png" alt="">
           <p class="icon-dec">Apple Podcasts</p>
-          <!-- <a href=""></a> -->
+          
         </div>
         <div class="social-icon">
           <img src="./assets/youtube.png" alt="">
           <p class="icon-dec">YouTube</p>
-          <!-- <a href=""></a> -->
+          
         </div>
         <div class="social-icon">
           <img src="./assets/twitter.png" alt="">
           <p class="icon-dec">Twitter</p>
-          <!-- <a href=""></a> -->
+          
         </div>
       </div>
       <p class="copyright">© 2026 TechWave Podcast. All rights reserved.</p>
